@@ -57,16 +57,16 @@
         border-top-right-radius: 10px;
         border-bottom-left-radius: 10px;
       }
-      .here button:hover{
+      .here button:hover {
         background-color: white;
         color: cadetblue;
         cursor: pointer;
       }
-      .desc ul li h6{
+      .desc ul li h6 {
         color: #000;
       }
-      .here ul li span{
-        color: #C0C0C0;
+      .here ul li span {
+        color: #c0c0c0;
       }
       .name h6 {
         display: flex;
@@ -89,6 +89,24 @@
       }
       .desc span {
         font-size: 0.9em;
+      }
+      @media screen and (max-width: 800px) {
+        body {
+          display: flex;
+          justify-content: center;
+          padding: 40px;
+          background-color: #ffe0ff;
+        }
+        .main {
+          width: 1200px;
+          border: 10px solid inherit;
+          padding: 20px;
+          border-radius: 10px;
+          border-bottom-left-radius: 10px;
+          border-bottom-right-radius: 10px;
+          border: none;
+          background-color: cornflowerblue;
+        }
       }
     </style>
   </head>
